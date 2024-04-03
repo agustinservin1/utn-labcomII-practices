@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PERFIL</title>
+        <style>
+        body{
+        font-size: 25px; 
+        padding: 20px; 
+        margin-left: 15px;                 
+        }
+
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;  
+        padding: 20px;       
+        }
+       
+        label{
+            padding: 20px;
+            
+            
+        }
+
+        option, select, input{
+            font-size: 25px;
+            margin: 20px;
+        }
+
+        #recordarDatos{
+        transform: scale(1.3);
+        margin: 10px;
+        margin-left: 10px;
+        }
+       
+        #enviarFormulario, p{
+            margin: 25px;
+            padding: 15px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>PERFIL</h1>
+
+        <p><strong>Estudiante</strong></p>
+
+        <label for>Nombre completo</label>
+        <input type="text">
+        <br>
+        
+        <label for>Correo eléctronico</label>
+        <input type="email" placeholder="xxxxxxxxxxx@email.com.ar">
+        <br>
+        
+        <label for>Edad</label>
+        <input type="text">
+        <br>
+
+        <label for="nacionalidad">Nacionalidad</label>
+        <select type="select" id="nacionalidad" name="nacionalidad">
+            <option value="ciudadano">Ciudadano</option>
+            <option value="noResidente">No residente</option>
+            <option value="extranjero">Extranjero</option>
+        </select>
+
+        <br>
+
+        <label for="a">Seleccione su condición laboral</label>
+        <select type="select" id="a" name="a">
+            <option value="fullTime">Trabajo full time</option>
+            <option value="parTime">Trabajo part time</option>
+            <option value="enBusqueda">En búsqueda laboral</option>
+            <option value="desempleado">Desempleado</option>
+        </select>
+
+        <br>
+        <br>
+        
+        <label for="recordarDatos">¿Desea guardar los datos
+            cargados?</label>
+        <input type="checkbox" id="recordarDatos" nombre="recordarDatos">
+        
+        <br>
+        <p><strong>Gustos personales</strong></p>
+
+        <div>
+            <br>
+            <label for="gustosMusicales">Gustos músicales?</label>
+            <textarea name="gustosMusicales" id="gustosMusicales" cols="30"
+                rows="5"></textarea>
+            <br>
+            <br>
+            <label for="comidaFavorita">Comida favorita</label>
+            <select type="select" id="comidaFavorita" name="comidaFavorita">
+                <option value="fullTime">Pastas</option>
+                <option value="otras">Otras</option>
+
+                <label for="enviarFormulario"></label>
+                <input type="submit" name="enviarFormulario"
+                    id="enviarFormulario">
+            </select>
+        </div>
+    </body>
+</html>
