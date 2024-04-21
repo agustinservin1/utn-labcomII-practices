@@ -1,0 +1,316 @@
+/*EJERCICIO 1 */
+.nav-bar1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar1 li {
+    background: rgba(123, 198, 199, 0.8);
+    flex-grow: 1;
+}
+
+.nav-bar1 a,
+.nav-bar1 a:link {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+
+/*EJERCICIO 2*/
+.nav-bar2 {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar2 li {
+    background: rgba(123, 198, 199, 0.8);
+}
+
+.nav-bar2 a,
+.nav-bar2 a:link {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    display: block;
+    width: 100%;
+}
+
+/*EJERCICIO 3*/
+.nav-bar3 {
+    display: flex;
+    gap: 2px;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.nav-bar3 li {
+    background: rgba(123, 198, 199, 0.8);
+    flex-grow: 1;
+}
+
+.nav-bar3 a,
+.nav-bar3 a:link {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+
+/*EJERCICIO 4*/
+.titulo-ejercicio4 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 0;
+    background: rgba(193, 219, 210, 1.00);
+    font-family: sans-serif;
+    color: black;
+    padding: 8px;
+}
+
+/*EJERCICIO 5*/
+.main-4 {
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+.div1-4,
+.div2-4 {
+    padding: 12px 24px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.div1-4 {
+    flex: 1;
+    background-color: rgb(251, 243, 230);
+
+}
+
+.div2-4 {
+    flex: 4;
+    background: rgb(233, 224, 213);
+}
+
+/*EJERCICIO 6*/
+.main-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 2px;
+    font-family: sans-serif;
+}
+
+.nav-bar6,
+.contenido-principal {
+    min-height: 100vh;
+    padding: 12px 24px;
+}
+
+.nav-bar6 {
+    flex: 1;
+    background: rgb(133, 215, 239);
+    display: flex;
+    align-items: start;
+}
+
+.contenido-principal {
+    flex: 8;
+    background: rgb(193, 219, 210);
+}
+
+.nav-bar6 ul li {
+    border-bottom: 1px solid gray;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.nav-bar6 ul {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+    padding: 0;
+    gap: 2px;
+    font-size: 20px;
+}
+
+/*EJERCICIO 7*/
+
+.contenedor-7 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: sans-serif;
+    height: 300px;
+    box-shadow: 0px 0px 7px 0px lightgray;
+
+
+}
+
+.encabezado-7 {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.cuerpo-7 {
+    background-color: white;
+    flex: 4;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    color: black;
+}
+
+.pie-7 {
+    background-color: darkgray;
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*EJERCICIO 8*/
+.contenedor-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    align-items: flex-end;
+    gap: 3px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px 0px lightgray;
+    border: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+.title {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.cuerpo {
+    background-color: white;
+    padding: 10px 10px;
+    height: 250px;
+}
+
+.pie {
+    background-color: gray;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EJERCICIO 9*/
+.contenedor-9 {
+    display: flex;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.columna-izq {
+    background-color: rgb(20, 153, 148);
+    color: white;
+    padding: 10px;
+    flex: 2;
+    padding: 24px;
+}
+
+.columnas-der {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.columna-d {
+    border: 1px solid gray;
+    flex: 1 1 100%;
+    padding: 24px;
+
+}
+
+/*EJERCICIO 10*/
+.body-10{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vmin;
+    text-align: center;
+}
+.titulo-10 {
+    text-align: center;
+    background-color: orange;
+    height: 24px;
+    font-size: 24px;
+    padding:20px;
+    font-weight: bold;
+}
+.contenedor-10 {
+    display: flex;
+    height: 100%;
+}
+.lateral{
+    flex:1 1 0;
+    background-color: darkgray;
+    padding: 24px;
+    color: white;
+
+}
+.centro {
+    flex: 2 1 0;
+    padding: 24px;
+}
+
